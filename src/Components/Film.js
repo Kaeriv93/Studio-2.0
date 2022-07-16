@@ -1,8 +1,10 @@
+import './Styles/film.css'
+
 function Film(props){
     const loaded = () =>{
         return props.film.map((film,idx)=>(
-            <main>
-                <section>
+            <main className="film-main">
+                <section className="film-container">
                     <div key={idx}>
                         <h1>{film.title}</h1>
                         <img src={film.image} alt={film.name}/>
