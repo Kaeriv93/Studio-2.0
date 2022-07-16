@@ -1,3 +1,5 @@
+import './Styles/header.css'
+
 function Header(){
     return(
         <>
