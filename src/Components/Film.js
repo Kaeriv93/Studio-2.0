@@ -5,7 +5,7 @@ function Film(props){
         return props.film.map((film,idx)=>(
             <main className="film-main">
                 <section className="film-container">
-                    <div key={idx}>
+                    <div className="film-wrapper" key={idx}>
                         <h1>{film.title}</h1>
                         <img src={film.image} alt={film.name}/>
                     </div>
